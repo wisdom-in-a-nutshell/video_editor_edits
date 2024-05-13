@@ -1,7 +1,7 @@
 #### 0.129
 
-Amelie Schreiber, computational biochemist and AI researcher. Welcome to the Cognitive Revolution. Nice to be here. I'm excited for this conversation. I expect to learn a lot from it. Quick context on my end. This all started with a tweet that I saw you put out probably two months ago now. where you said, here are my top 10   
-(20.33) ~~tools,~~ (20.77)  
+Amelie Schreiber, computational biochemist and AI researcher. Welcome to the Cognitive Revolution. Nice to be here. I'm excited for this conversation. I expect to learn a lot from it. Quick context on my end. This all started with a tweet that I saw you put out probably two months ago now. where you said, here are my    
+(19.81) ~~top 10 tools,~~ (20.77)  
 top 10 AI tools for biology in no particular order. And I read down the list and I was like, I don't know what any of these are. So when that happens, I'm immediately like, okay, this is an area that I need to do some remedial self-education in. And reached out,   
 (37.215) ~~I think~~(37.415)  
 pretty much immediately to say, hey, would you be interested in educating me in the form of a podcast? 
