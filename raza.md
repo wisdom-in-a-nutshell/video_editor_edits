@@ -44,8 +44,6 @@
 
 **Raza Habib (00:15:52):** Can you tell me a little bit about those lengths you go to? I mean, just so you have the context, right? At Human Loop, what we're focused on is evaluation and helping people measure performance. So it's something that I spend a lot of my time thinking about. And I'm always curious how other people approach the problem. So how do you guys do the work of evaluation, of reducing hallucinations, of customizing the models as well?
 
-**None (00:16:14):** Yeah.
-
 **Surojit Chatterjee (00:16:14):** Let me talk about evaluation first. So every one of our AI employees come with a Turing test embedded which means they will show you their work and they will show you equivalent kind of human work side by side and ask you to give feedback. And that's super helpful because we humans can understand, okay, is AI, at bar with humans, better than humans, worse than humans, and make the judgment.
 
 **Raza Habib (00:16:43):** How does that work? Where do the initial test cases come from? So I hire Ema, I install Ema, as it were. I'm now going to get these test cases. What is the set of test cases that is running on initially?
