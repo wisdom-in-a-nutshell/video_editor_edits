@@ -102,4 +102,4 @@
 
 **Raza Habib (00:43:18):** On that optimistic note, I think that's a great place to stop. Thanks so much for coming on the show.
 
-**Surojit Chatterjee (00:43:24):** Thank you so much, really enjoy.
+**Surojit Chatterjee (00:43:24):** Thank you so much.
