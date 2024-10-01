@@ -16,7 +16,7 @@
 
 **Raza Habib (00:07:57):** And for those integrations to things like the ticketing agents or whatever, is it operating at the level of the UI? Is it seeing the pixels and clicking buttons? Or is it directly via the API integration?
 
-**Surojit Chatterjee (00:08:09):** Yeah. So underneath, we have done a lot of API integrations. For the end user, you are just doing a few clicks deploying. So that's another thing we have done, which is it's fastest to deploy, fastest to value. and also all legitimate applications today.
+**Surojit Chatterjee (00:08:09):** Yeah. So underneath, we have done a lot of API integrations. For the end user, you are just doing a few clicks deploying. So that's another thing we have done, which is it's fastest to deploy, fastest to value. And all legitimate applications today.
 
 **Raza Habib (00:08:26):** So I have a couple of questions. I've spoken to a bunch of enterprise leaders who are building AI products about the build versus buy distinction and in certain cases why they chose to build internally. And something I hear really commonly is that the data integrations that are required to make the AI useful are very extensive, right? Like GPT-4 is very smart, but the things that are needed for it to be really useful is it has to have access to all the customer data, it has to have access to the CRM data, to the previous customer support, those integrations you just mentioned. And people are often nervous about giving third party access to that information. So how does the data integration work and how do you guys get the permissions to make that work successfully?
 
