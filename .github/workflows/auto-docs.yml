@@ -1,24 +1,26 @@
 name: Auto-generate Documentation
 
 # This workflow automatically generates documentation for the codebase
-# It runs when changes are pushed to main (including when PRs are merged)
+# It runs when PRs are merged (or via manual dispatch)
 # The workflow uses an LLM to analyze code and create documentation
-# It skips running when changes are made to the docs directory to prevent infinite loops.
 
 on:
-  push:
-    branches: [main]
-    paths-ignore:
-      - 'docs/**'
+  pull_request:
+    types: [closed]
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: 'Pull request number to document'
+        required: false
+        default: ''
 
-# Updated permissions to match what the reusable workflow requires
 permissions:
   contents: read
-  issues: write
-  pull-requests: read
+  pull-requests: write
 
 jobs:
   docs:
+    if: ${{ github.event.pull_request.merged == true || github.event_name == 'workflow_dispatch' }}
     # Uses a reusable workflow from the organization's .github repository
     # This centralizes the documentation generation logic for consistency across repos
     uses: wisdom-in-a-nutshell/.github/.github/workflows/generate-docs.yml@main
@@ -26,6 +28,7 @@ jobs:
     with:
       # Specifies the runner environment for the documentation generation
       run-on: ubuntu-latest
+      pr_number: ${{ github.event.pull_request.number || github.event.inputs.pr_number }}
 
     secrets:
       # API key for the Language Learning Model service used for documentation generation
